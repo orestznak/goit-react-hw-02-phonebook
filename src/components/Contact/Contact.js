@@ -8,8 +8,8 @@ export const Contact = ({ deleteContact, name, number, id }) => {
       {name}: {number}
       <Button
         type="button"
-        onClick={deleteContact}
         id={id}
+        onClick={() => deleteContact(id)}      
       >
         Delete
       </Button>
