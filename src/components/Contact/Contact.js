@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, ContactItem } from './Contact.styled';
 import PropTypes from 'prop-types';
 
-export const Contact = ({ deleteContact, name, number, id }) => {
+export const Contact = ({ deleteContact, name, number,id }) => {
   return (
     <ContactItem>
       {name}: {number}
